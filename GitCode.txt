@@ -21,7 +21,8 @@ git pull origin master
 ---不允许合并没有共同祖先的分支 --allow-unrelated-histories
 
 git push -u origin master
-
+#报错Branch 'master' set up to track remote branch 'master' from 'origin'.未能上传
+git commit -m "提交文件" #""中的内容不能重复
 
 #报错error: failed to push some refs to 'https://github.com/saborforly/
 ---
