@@ -7,6 +7,8 @@ git status查看当前的git仓库状态
 git commit 提交到仓库
 git pull origin master 上传github之前pull一下
 git push -u origin master上传代码到GitHub远程仓库
+git remote rm origin  先删除远程 Git 仓库
+git ls-files查看已存放
 
 上传project
 cd d:text
@@ -15,8 +17,14 @@ git add .
 git commit -m "提交文件"
 git remote add origin  https://github.com/saborforly/video-classification.git
 git pull origin master
+#报错fatal: refusing to merge unrelated histories
+---不允许合并没有共同祖先的分支 --allow-unrelated-histories
+
 git push -u origin master
 
+
+#报错error: failed to push some refs to 'https://github.com/saborforly/
+---
 更新代码
 git status
 git add *
