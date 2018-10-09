@@ -1,7 +1,7 @@
 
 Git Bash
-#data code
-##git init 建立git仓库
+data code
+git init 建立git仓库
 git add .将项目的所有文件添加到仓库中
 git status查看当前的git仓库状态
 git commit 提交到仓库
